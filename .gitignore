@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (chaves e senhas) — use os arquivos .env.example
+.env
+.env.*
+!.env.example
+
+# Build
+dist/
+
+# Imagens enviadas pelo painel admin
+dev-burguer-api/uploads/*
+!dev-burguer-api/uploads/.gitkeep
+
+# Logs e sistema
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
